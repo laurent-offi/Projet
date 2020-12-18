@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Accueil</title>
+	</head>
+
+<body>
+
+	<h1>Page d'accueil</h1>
+
+	<p>Bienvenue sur ma page d'accueil.</p>
+	<p>Elle contient différents caractères.</p>
+
+	<h2>Deuxième titre</h2>
+	<p>Avec son paragraphe qui l'accompagne.</p>
+
+	<h2>Troisième titre</h2>
+	<p>Toujours un accompagnateur.</p>
+
+<hr>
+
+	<h1>Ma liste de course</h1>
+
+	<p>Il me faut plusieurs choses :</p>
+
+		<li>Une baguette</li>
+		<li>2 kilos de tomates</li>
+		<li>3 litres de lait</li>
+		<li>5 <b>boites</b> de chewing-gum</li>
+	
+	<br>
+
+	<i>Payer en liquide ou par chèque.</i>
+
+
+<hr>
+
+	<h1><img title="Une image" src="http://www.infowebmaster.fr/img/petite-image/bloc-note-stylo.png" alt="Image de block note">Tout les petits trucs qui me seront utile pour la suite</h1>
+
+	<p>le site de codecademy est <a href="CodeCademy" title="Google">ici</a>.</p>
+
+	<p>Pour plein de tuto sympa, il y a aussi <a href="https://openclassrooms.com/fr/" title="openclassrooms">openclassroom</a>.</p>
+
+	<a href="https://ubuntu-fr.org/">Si tu veux devenir un crack sous Ubuntu, il me faut la bonne adresse.</a>
+<hr>
+
+	<table>
+	<thead>
+    <caption>Mon compte BNP</caption>
+	</thead>
+	<tbody>
+    <tr>
+        <th>Date</th>
+        <th>Libellé</th>
+        <th>Crédit</th>
+        <th>Débit</th>
+    </tr>
+    <tr>
+        <td>01/05/2016</td>
+        <td>Paye</td>
+        <td>1500</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        	<td>01/05/2016</td>
+			<td>Courses de la semaine</td>
+       	 	<td>0</td>
+       	 	<td>152,30</td>
+   		</tr>
+   		<tr>
+        	<td>04/05/2016</td>
+        	<td>Mc do</td>
+        	<td>0</td>
+        	<td>32,40</td>
+    	</tr>
+
+    	<tr>
+        	<td>05/05/2016</td>
+        	<td>Loyer</td>
+        	<td>0</td>
+        	<td>700</td>
+    	</tr>
+
+    	<tr>
+        	<td>05/05/2016</td>
+        	<td>Internet</td>
+        	<td>0</td>
+        	<td>39,90</td>
+    	</tr>
+    </tbody>
+
+    <tfoot>
+    	<td>Solde</td>
+    	<th></th>
+        <td>575,40€</td>
+    </tfoot>
+
+	</table>
+<hr>
+
+<form>
+
+	<fieldset>
+		<legend>
+			Votre identité
+		</legend>
+		<label for="name">1. Nom :</label> <input type="text" id="name" placeholder="Nom"><br />
+		<label for="firstname">2. Prénom :</label> <input type="text" id="firstname" placeholder="Prénom"><br />
+		<label for="email">3. Adresse email :</label> <input type="email" id="email" placeholder="adresse email"><br />
+	</fieldset>
+
+
+	<fieldset>
+		<legend>
+			Adresse de livraison
+		</legend>
+		<label for="address">1. Adresse :</label> <textarea id="address"></textarea><br />
+		<label for="code">2. Code postal :</label> <input type="text" id="code" placeholder="Code postal"><br />
+		<label for="city">3. Ville :</label> <input type="text" id="city" placeholder="Ville"><br />
+	</fieldset>
+
+
+
+	<fieldset>
+		<legend>
+			Informations de règlement
+		</legend>
+		<label>1. Type de carte bencaire :</label>
+		<li><input type="radio" id="visa" name="carte">
+			<label for="visa">VISA</label></li>
+  			<li><input type="radio" id="mastercard" name="carte">
+			<label for="mastercard">MASTERCARD</label></li>
+
+
+		<label for="num1">2. Numéro de carte :</label> <input type="text" id="num1" placeholder="Numéro de carte"><br />
+		<label for="num2">3. Code de sécurité :</label> <input type="text" id="num2" placeholder="Code de sécurité"><br />
+		<label for="titulaire">4. Nom du titulaire :</label> <input type="text" id="titulaire" placeholder="Nom du titulaire"><br />
+	</fieldset>
+
+	<button>J'achète</button>
+</form>
+
+
+
+</body>
+
+</html>
